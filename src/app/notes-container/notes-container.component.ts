@@ -22,7 +22,7 @@ export class NotesContainerComponent implements OnInit {
         this.user = user;
         this.notes = this._angularFire.database.list(`/users/${user.uid}/items`);
       }
-    })
+    });
   }
 
   onNoteChecked(note) {
