@@ -6,8 +6,8 @@
       <div class="col-xs-3">
         <app-color-picker [colors]="colors" (selected)="onColorSelect($event)"></app-color-picker>
       </div>
-      <button type="submit" class="btn-light" *ngIf="fullForm">
-        Done
+      <button md-raised-button type="submit" class="btn-light" *ngIf="fullForm">
+        <md-icon>done</md-icon> Done
       </button>
     </div>
   </form>
