@@ -4,7 +4,6 @@
   </div>
   <div class="notes col-xs-8">
     <div class="row between-xs">
-      <!--<span *ngFor="let note of notes">{{note | json}}</span>-->
       <app-note-card *ngFor="let note of notes | async" class="col-xs-4" [note]="note" (checked)="onNoteChecked($event)"></app-note-card>
     </div>
   </div>
