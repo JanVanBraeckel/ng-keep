@@ -3,5 +3,5 @@ export const fireBaseConfig = {
   authDomain: '$FIREBASE_AUTHDOMAIN',
   databaseURL: '$FIREBASE_DATABASEURL',
   storageBucket: '$FIREBASE_STORAGEBUCKET',
-  messagingSenderId: '$FIREBASE_MESSAGESENDERID'
+  messagingSenderId: '$FIREBASE_MESSAGINGSENDERID'
 };
