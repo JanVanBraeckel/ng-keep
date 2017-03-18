@@ -1,7 +1,7 @@
 export const fireBaseConfig = {
-  apiKey: '$FIREBASE_APIKEY',
-  authDomain: '$FIREBASE_AUTHDOMAIN',
-  databaseURL: '$FIREBASE_DATABASEURL',
-  storageBucket: '$FIREBASE_STORAGEBUCKET',
-  messagingSenderId: '$FIREBASE_MESSAGESENDERID'
+  apiKey: 'AIzaSyBa4IKs-D_zZnn3vQ2-_EJi9gw8jGUneKI',
+  authDomain: 'ng-keep.firebaseapp.com',
+  databaseURL: 'https://ng-keep.firebaseio.com',
+  storageBucket: 'ng-keep.appspot.com',
+  messagingSenderId: '224808410057'
 };
