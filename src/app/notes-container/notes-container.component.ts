@@ -26,7 +26,7 @@ export class NotesContainerComponent implements OnInit {
   }
 
   onNoteChecked(note) {
-    this._angularFire.database.list(`/users/${this.user.uid}/items`).remove(note.$key);
+    this._angularFire.database.object(`/users/${this.user.uid}/items/${note.$key}`).remove();
   }
 
   onCreateNote(note) {
